@@ -1,6 +1,6 @@
 ## WebServ
 
-- A lightweight HTTP/1.1 web server implementation in C++98, featuring non-blocking I/O with kqueue, CGI support, and comprehensive HTTP functionality. Built as part of the 42 school curriculum.
+- A lightweight HTTP/1.1 web server implementation in C++98, featuring non-blocking I/O with kqueue, CGI support, and comprehensive HTTP functionality.
 
 ## Table of Contents
 
