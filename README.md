@@ -7,7 +7,7 @@
 - [Features](#Features)
 - [Architecture](#Architecture)
 - [Installation](#Installation)
-- [Configuration](#Configuration-Directives)
+- [Configuration](#Configuration)
 - [Usage](#Usage)
 - [CGI Support](#CGI-Support)
 - [HTTP Methods](#HTTP-Methods)
@@ -130,7 +130,7 @@ nginxserver {
 ## Usage
 
 ### Starting the Server:
-Use default configuration (./Default/default.conf)
+Use default configuration
 ```sh 
 ./webserv Default/default.conf
 
