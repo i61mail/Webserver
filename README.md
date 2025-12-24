@@ -4,15 +4,15 @@
 
 ## Table of Contents
 
-[Features](Features)
-[Architecture](Architecture)
-[Installation](Installation)
-[Configuration](Configuration-Directives)
-[Usage](Usage)
-[CGI Support](CGI-Support)
-[HTTP Methods](HTTP-Methods)
-[Project Structure](Project-Structure)
-[Acknowledgments](Acknowledgments)
+- [Features](Features)
+- [Architecture](Architecture)
+- [Installation](Installation)
+- [Configuration](Configuration-Directives)
+- [Usage](Usage)
+- [CGI Support](CGI-Support)
+- [HTTP Methods](HTTP-Methods)
+- [Project Structure](Project-Structure)
+- [Acknowledgments](Acknowledgments)
 
 ## Features
 
@@ -77,17 +77,18 @@ Prerequisites
 - Kqueue - Available on macOS and BSD systems
 
 Compile the project
-
+```sh
 - git clone <repository-url>
 - cd webserv
 - make
+```
 
 # The executable 'webserv' will be created
-
+```sh
 - make clean   # Remove object files
 - make fclean  # Remove object files and executable
 - make re      # Rebuild from scratch
-
+```
 ## Configuration
 
 Configuration File Format
@@ -128,18 +129,26 @@ nginxserver {
 
 ## Usage
 
-Starting the Server
-Use default configuration (./Default/default.conf)
+Starting the Server:
+```sh 
+- Use default configuration (./Default/default.conf)
 ./webserv Default/default.conf
 
-# Use custom configuration file
-./webserv config.conf
+```
+Use custom configuration file
+
+```sh
+./webserv custom.conf
+```
 
 # The server will display startup information:
-# [+] Server listening on port 8080
-# [+] Server listening on port 8081
+```
+[+] Server listening on port 8080
+[+] Server listening on port 8081
+```
 Making Requests
-bash# GET request
+```sh
+# GET request
 curl http://localhost:8080/
 
 # GET with specific file
@@ -154,6 +163,7 @@ curl -X DELETE http://localhost:8080/uploads/myfile.txt
 # CGI script execution
 curl http://localhost:8080/cgi-bin/script.py?name=value
 
+```
 ## CGI Support
 
 ### Supported Languages
