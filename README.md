@@ -4,15 +4,15 @@
 
 ## Table of Contents
 
-- [Features](Features)
-- [Architecture](Architecture)
-- [Installation](Installation)
-- [Configuration](Configuration-Directives)
-- [Usage](Usage)
-- [CGI Support](CGI-Support)
-- [HTTP Methods](HTTP-Methods)
-- [Project Structure](Project-Structure)
-- [Acknowledgments](Acknowledgments)
+- [Features](#Features)
+- [Architecture](#Architecture)
+- [Installation](#Installation)
+- [Configuration](#Configuration-Directives)
+- [Usage](#Usage)
+- [CGI Support](#CGI-Support)
+- [HTTP Methods](#HTTP-Methods)
+- [Project Structure](#Project-Structure)
+- [Acknowledgments](#Acknowledgments)
 
 ## Features
 
@@ -129,9 +129,9 @@ nginxserver {
 
 ## Usage
 
-Starting the Server:
+### Starting the Server:
+Use default configuration (./Default/default.conf)
 ```sh 
-- Use default configuration (./Default/default.conf)
 ./webserv Default/default.conf
 
 ```
